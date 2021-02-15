@@ -70,3 +70,41 @@ Crie uma classe Carro com os atributos:
 4. Variante: String
 
 - Essa classe deve garantir que Modelo, Marca e Ano sempre sejam passados na hora de instanciar um objeto.
+
+Carro:
+
+```java
+package exercicioCarro2;
+
+public class Carro {
+    String marca, modelo, variante;
+    Integer ano;
+
+    public Carro(){}
+
+    public Carro(String marca, String modelo, Integer ano){
+        this.marca = marca;
+        this.modelo = modelo;
+        this.ano = ano;
+    }
+    public void setVariante(String variante){
+        this.variante = variante;
+    }
+}
+```
+
+Programa:
+
+```java
+package exercicioCarro2;
+
+public class Programa {
+    public static void main(String[] args){
+        Carro carro1 = new Carro("Gol", "Volkswagen", 2016);
+        carro1.setVariante("G5");
+        System.out.println(String.format("Ano: %s, Modelo: %s, Variante: %s e Marca: %s",
+                carro1.ano, carro1.modelo, carro1.variante, carro1.marca));
+    }
+}
+```
+
