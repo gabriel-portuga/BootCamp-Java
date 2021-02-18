@@ -1,4 +1,4 @@
-package exercicioCarro;
+package exercicio01Carro;
 
 public class Carro {
     int maximo = 5;

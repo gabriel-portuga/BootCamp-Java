@@ -1,20 +1,20 @@
+operadores/Relacionais.java
+ operadores.Relacionais
 operadores/Logicos.java
  operadores.Logicos
 strings/Strings.java
  strings.Strings
 ifs/IF.java
  ifs.IF
-operadores/Igualdade.java
- operadores.Igualdade
-operadores/Incremento.java
- operadores.Incremento
-operadores/Matematicos.java
- operadores.Matematicos
-operadores/Relacionais.java
- operadores.Relacionais
 fors/For.java
  fors.For
 whiles/While.java
  whiles.While
+operadores/Matematicos.java
+ operadores.Matematicos
+operadores/Incremento.java
+ operadores.Incremento
 testes/Teste.java
  testes.Teste
+operadores/Igualdade.java
+ operadores.Igualdade

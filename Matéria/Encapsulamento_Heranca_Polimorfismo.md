@@ -223,30 +223,93 @@ Monte um modelo que atenda esse cenário.
 Funcionários(Super):
 
 ```java
+package exercicio03Empresa;
+
+public class Funcionario{
+    private String nome;
+    private String sobreNome;
+    private double salario;
+    private double taxaImposto;
+
+    public Funcionario(String nome, String sobreNome, double salario){
+        this.nome = nome;
+        this.sobreNome = sobreNome;
+        this.salario = salario;
+    }
+    public double getTaxaImposto() {
+        return taxaImposto;
+    }
+    public void setTaxaImposto(double taxaImposto){
+        this.taxaImposto = taxaImposto;
+    }
+    public double calcularImposto(){
+        return this.salario * taxaImposto;
+    }
+}
 
 ```
 
 Gerente(filha1):
 
 ```java
+package exercicio03Empresa;
+
+public class Gerente extends Funcionario {
+    public Gerente(String nome, String sobreNome, double salario) {
+        super(nome, sobreNome, salario);
+    }
+}
 
 ```
 
 Supervisor(filha2):
 
 ```java
+package exercicio03Empresa;
+
+public class Supervisor extends Funcionario{
+    public Supervisor(String nome, String sobreNome, double salario) {
+        super(nome, sobreNome, salario);
+    }
+
+}
 
 ```
 
 Atendente(filha3):
 
 ```java
+package exercicio03Empresa;
+
+public class Atendente extends Funcionario {
+    public Atendente(String nome, String sobreNome, double salario) {
+        super(nome, sobreNome, salario);
+    }
+}
 
 ```
 
 Programa:
 
 ```java
+package exercicio03Empresa;
+
+public class Programa {
+    public static void main(String[] args){
+        Funcionario supervisor = new Supervisor("Gabriel", "Silva", 2540.00);
+        Funcionario atendente = new Atendente("Claudia", "Marapodi", 3200.10);
+        Funcionario gerente = new Gerente("Iracenam", "Jesus", 5200.00);
+
+        supervisor.setTaxaImposto(0.05);
+        atendente.setTaxaImposto(0.01);
+        gerente.setTaxaImposto(0.1);
+
+
+        System.out.println(("Gerente: " + gerente.calcularImposto()));
+        System.out.println("Supervisor: " + supervisor.calcularImposto());
+        System.out.println("Atendente: " + atendente.calcularImposto());
+    }
+}
 
 ```
 
