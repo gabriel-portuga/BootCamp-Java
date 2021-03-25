@@ -1,2 +1,12 @@
+javaDate/Exemplo03.java
+ javaDate.Exemplo03
+javaDate/Exemplo05.java
+ javaDate.Exemplo05
+javaDate/Exemplo02.java
+ javaDate.Exemplo02
 javaDate/Exemplo01.java
  javaDate.Exemplo01
+javaDate/Exemplo04.java
+ javaDate.Exemplo04
+javaDate/Exercicio_DataAniversario.java
+ javaDate.Exercicio_DataAniversario
