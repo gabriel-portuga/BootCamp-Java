@@ -18,3 +18,9 @@ javaCalendar/Exemplo05_Calendar.java
  javaCalendar.Exemplo05_Calendar
 javaCalendar/Exercicio_ClientePagamento.java
  javaCalendar.Exercicio_ClientePagamento
+javaDateFormat/Exemplo08.java
+ javaDateFormat.Exemplo08
+javaDateFormat/Exemplo09.java
+ javaDateFormat.Exemplo09
+javaDateFormat/Exercicio_FormatDate.java
+ javaDateFormat.Exercicio_FormatDate
