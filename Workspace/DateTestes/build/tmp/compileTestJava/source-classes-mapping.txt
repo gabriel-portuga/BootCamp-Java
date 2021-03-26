@@ -10,9 +10,11 @@ javaDate/Exemplo04.java
  javaDate.Exemplo04
 javaDate/Exercicio_DataAniversario.java
  javaDate.Exercicio_DataAniversario
-javaDate/Exemplo05_Calendar.java
- javaDate.Exemplo05_Calendar
-javaDate/Exemplo06.java
- javaDate.Exemplo06
-javaDate/Exemplo07.java
- javaDate.Exemplo07
+javaCalendar/Exemplo07.java
+ javaCalendar.Exemplo07
+javaCalendar/Exemplo06.java
+ javaCalendar.Exemplo06
+javaCalendar/Exemplo05_Calendar.java
+ javaCalendar.Exemplo05_Calendar
+javaCalendar/Exercicio_ClientePagamento.java
+ javaCalendar.Exercicio_ClientePagamento
