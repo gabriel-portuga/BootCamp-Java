@@ -1,0 +1,2 @@
+# Trataemnto de exceções
+
